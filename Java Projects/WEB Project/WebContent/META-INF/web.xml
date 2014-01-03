@@ -10,8 +10,14 @@
         based on the recommendations of the Application Developer's Guide.
     </description>
 
-	<!-- <servlet> <servlet-name>Hello</servlet-name> <servlet-class>Hi</servlet-class> 
-		</servlet> <servlet-mapping> <servlet-name>Hello</servlet-name> <url-pattern>/kamion</url-pattern> 
-		</servlet-mapping> -->
+	<servlet>
+		<servlet-name>servlets.LoginServlet</servlet-name>
+		<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servlet.LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
 
 </web-app>     

@@ -69,7 +69,7 @@
 				},
 			},
 			submitHandler : function(loginForm) {
-				hashPassword();
+				sendData();
 			},
 			invalidHandler : function(loginForm, validator) {
 				alert('invalidHandler');
@@ -77,13 +77,41 @@
 
 		});
 
-		function hashPassword() {
-			var hash = CryptoJS.SHA1(pField.value);
-			alert(hash);
+		/* function sendData() {
+
+			var myArray = new Array();
+			myArray[0] = uField.value;
+			myArray[1] = CryptoJS.SHA1(pField.value);
+			alert(myArray[0] + " " + myArray[1]);
+			$.post("LoginServlet", {
+				arrayData : myArray,
+				mode : "insert"
+			});
+
+		} */
+
+		function getData() {
+			$.get('LoginServlet', function(data) {
+				alert(data);
+			});
 		}
 
 	});
+
+	function sendData() {
+		var myArray = new Array();
+		myArray[0] = document.getElementById("emailField").value;
+		myArray[1] = CryptoJS.SHA1(
+				document.getElementById("passwordField").value).toString();
+		alert(myArray[0] + " " + myArray[1]);
+		$.post("LoginServlet", {
+			arrayData : myArray,
+			mode : "insert"
+		});
+
+	}
 </script>
+
 <body>
 </body>
 </html>
