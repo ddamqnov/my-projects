@@ -1,0 +1,373 @@
+!SESSION 2014-01-03 14:04:58.831 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data E:\GitHub Workspace\my-projects\Java Projects -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-01-03 14:05:20.032
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-01-03 14:05:20.035
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Damqnov'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2014-01-03 14:15:48.411
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost (2) are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-01-03 14:23:42.306
+!MESSAGE Cannot publish to the server because it is missing its runtime environment.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-01-03 14:23:54.337
+!MESSAGE Cannot publish to the server because it is missing its runtime environment.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2014-01-03 14:25:55.925
+!MESSAGE Error occurred installing server: C:\LICENSE (Access is denied)
+!STACK 0
+java.io.FileNotFoundException: C:\LICENSE (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.wst.server.core.internal.InstallableRuntime2.unzip(InstallableRuntime2.java:330)
+	at org.eclipse.wst.server.core.internal.InstallableRuntime2.install(InstallableRuntime2.java:263)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite$6.run(TomcatRuntimeComposite.java:227)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.server.ui 4 0 2014-01-03 14:26:58.400
+!MESSAGE The server is invalid or missing
+
+!ENTRY org.eclipse.wst.server.ui 4 0 2014-01-03 14:27:04.665
+!MESSAGE The server is invalid or missing
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.871
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.874
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.879
+!MESSAGE Failed while invoking preset factory "org.eclipse.jpt.jpa.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaSEConfigurationPresetFactory.findProjectFacetVersion(BasicJpaSEConfigurationPresetFactory.java:62)
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaSEConfigurationPresetFactory.createPreset(BasicJpaSEConfigurationPresetFactory.java:51)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.882
+!MESSAGE Failed while invoking preset factory "org.eclipse.jpt.jpa.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaSEConfigurationPresetFactory.findProjectFacetVersion(BasicJpaSEConfigurationPresetFactory.java:62)
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaSEConfigurationPresetFactory.createPreset(BasicJpaSEConfigurationPresetFactory.java:51)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.884
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.887
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.889
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.892
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.895
+!MESSAGE Failed while invoking preset factory "org.eclipse.jpt.jpa.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaEEConfigurationPresetFactory.findProjectFacetVersion(BasicJpaEEConfigurationPresetFactory.java:64)
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaEEConfigurationPresetFactory.createPreset(BasicJpaEEConfigurationPresetFactory.java:53)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.898
+!MESSAGE Failed while invoking preset factory "org.eclipse.jpt.jpa.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaEEConfigurationPresetFactory.findProjectFacetVersion(BasicJpaEEConfigurationPresetFactory.java:64)
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaEEConfigurationPresetFactory.createPreset(BasicJpaEEConfigurationPresetFactory.java:53)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.900
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.common.project.facet.core.MinimalConfigurationPresetFactory.findProjectFacetVersion(MinimalConfigurationPresetFactory.java:77)
+	at org.eclipse.wst.common.project.facet.core.MinimalConfigurationPresetFactory.createPreset(MinimalConfigurationPresetFactory.java:66)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.903
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.common.project.facet.core.MinimalConfigurationPresetFactory.findProjectFacetVersion(MinimalConfigurationPresetFactory.java:77)
+	at org.eclipse.wst.common.project.facet.core.MinimalConfigurationPresetFactory.createPreset(MinimalConfigurationPresetFactory.java:66)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.905
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.908
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.911
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.914
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.917
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2014-01-03 14:27:23.919
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2014-01-03 14:30:15.702
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2014-01-03 14:30:29.575
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.epp.mpc.ui 4 4 2014-01-03 15:40:53.559
+!MESSAGE Unexpected exception: HTTP Server 'Internal Error': http://marketplace.eclipse.org/sites/default/files/styles/medium/public/emfbuildergenerator_ui.png?itok=m2k9xaAK
+!STACK 1
+org.eclipse.core.runtime.CoreException: HTTP Server 'Internal Error': http://marketplace.eclipse.org/sites/default/files/styles/medium/public/emfbuildergenerator_ui.png?itok=m2k9xaAK
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:35)
+	at org.eclipse.epp.internal.mpc.core.util.TransportFactory$1.stream(TransportFactory.java:69)
+	at org.eclipse.epp.internal.mpc.ui.catalog.AbstractResourceRunnable.run(AbstractResourceRunnable.java:64)
+	at org.eclipse.epp.internal.mpc.ui.catalog.AbstractResourceRunnable.call(AbstractResourceRunnable.java:51)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.ecf.filetransfer.IncomingFileTransferException: HttpComponents connection error response code 500.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:665)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	... 12 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2014-01-03 15:40:53.559
+!MESSAGE HTTP Server 'Internal Error': http://marketplace.eclipse.org/sites/default/files/styles/medium/public/emfbuildergenerator_ui.png?itok=m2k9xaAK
+!STACK 1
+org.eclipse.ecf.filetransfer.IncomingFileTransferException: HttpComponents connection error response code 500.
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.openStreams(HttpClientRetrieveFileTransfer.java:665)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:879)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer.sendRetrieveRequest(AbstractRetrieveFileTransfer.java:570)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.MultiProtocolRetrieveAdapter.sendRetrieveRequest(MultiProtocolRetrieveAdapter.java:106)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:422)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:273)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.epp.internal.mpc.core.util.AbstractP2TransportFactory.invokeStream(AbstractP2TransportFactory.java:35)
+	at org.eclipse.epp.internal.mpc.core.util.TransportFactory$1.stream(TransportFactory.java:69)
+	at org.eclipse.epp.internal.mpc.ui.catalog.AbstractResourceRunnable.run(AbstractResourceRunnable.java:64)
+	at org.eclipse.epp.internal.mpc.ui.catalog.AbstractResourceRunnable.call(AbstractResourceRunnable.java:51)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ecf.identity 4 0 2014-01-03 15:40:53.560
+!MESSAGE HttpComponents connection error response code 500.
+!SESSION 2014-01-03 15:41:48.005 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data E:\GitHub Workspace\my-projects\Java Projects -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-01-03 15:42:10.502
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-01-03 15:42:10.508
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Damqnov'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

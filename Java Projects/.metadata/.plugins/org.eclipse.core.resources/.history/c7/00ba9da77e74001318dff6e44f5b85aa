@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WEB Project Login Page</title>
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="WebContent/js/bootstrap.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+<!-- Creating dynamic login form with javascript/jquery -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		// Creating of the login form with some basic attributes
+		var loginForm = document.createElement("form");
+		loginForm.setAttribute("method", "POST");
+		loginForm.setAttribute("class", "cmxform well span 3");
+		loginForm.setAttribute("id", "loginForm");
+		
+		var uDiv = document.createElement("div");
+		uDiv.setAttribute("id", "userDiv");
+		uDiv.setAttribute("class", "input-group");
+		
+		var uSpan = document.createElement("span");
+		uSpan.setAttribute("id", "span");
+		uSpan.setAttribute("class", "input-group-addon");
+		uSpan.innerHTML="@";
+		
+		var uField = document.createElement("input");
+		uField.setAttribute("type", "text")
+		uField.setAttribute('placeholder', 'eMail');
+		uField.setAttribute('name', 'email');
+		uField.setAttribute('id', 'emailField');
+		uField.setAttribute("class", "form-control")
+		
+
+		var but = document.createElement("input");
+		but.setAttribute("type", "submit");
+		but.setAttribute("value", "Click Me!");
+		but.setAttribute("id", "button");
+		but.setAttribute("class", "btn btn-primary");
+		$("#button").click(function() {
+			alert("Say hi!");
+		});
+		
+		document.body.appendChild(loginForm);
+		$("#loginForm").append(uDiv);
+		$("#userDiv").append(uSpan);
+		$("#userDiv").append(uField);
+		$("#loginForm").append(but);
+
+		
+	});
+</script>
+<body>
+	<div id="myDiv"></div>
+</body>
+</html>

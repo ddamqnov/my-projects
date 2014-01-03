@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move 1 resources to &apos;WebContent&apos;" description="Move 1 resources to &apos;WebContent&apos;" destination="WebContent" element1="login.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1388751821068" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;WEB Project/WebContent/lib&apos; to &apos;js&apos;" description="Rename resource &apos;lib&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/lib" name="js" stamp="1388752626171" updateReferences="true"/>
+</session>
