@@ -1,0 +1,31 @@
+
+public class UserDAO  implements IUsersDAO{
+
+	@Override
+	public UserInformation add(String userName, String userPassword) {
+		// TODO Auto-generated method stub
+		
+		UserInformation uf = new UserInformation();
+		uf.
+		return null;
+	}
+
+	@Override
+	public UserInformation getUserById(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserInformation removeuserById(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserInformation getUserByName(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

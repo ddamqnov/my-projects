@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.jboss.ide.eclipse.as.core.server.JBoss7StartupConfiguration">
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-mp &quot;E:/jboss-as-7.1.1.Final/modules&quot; -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone"/>
+<stringAttribute key="server-id" value="JBoss 7.1 Runtime  Server1389089485004"/>
+</launchConfiguration>

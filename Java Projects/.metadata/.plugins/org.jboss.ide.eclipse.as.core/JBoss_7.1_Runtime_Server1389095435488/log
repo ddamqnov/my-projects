@@ -1,0 +1,776 @@
+!SESSION 2014-01-07 13:49:30.244 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:50:38.750
+!MESSAGE Module NewWEBProject published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 13:50:40.008
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 13:50:45.827
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 13:50:46.023
+!MESSAGE Module NewWEBProject on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 13:51:07.392
+!MESSAGE Module NewWEBProject on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:51:34.664
+!MESSAGE 1 files modified in module NewWEBProject
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:51:58.356
+!MESSAGE 1 files modified in module NewWEBProject
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 13:52:04.150
+!MESSAGE Module NewWEBProject on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 13:52:25.109
+!MESSAGE Module NewWEBProject on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:53:17.330
+!MESSAGE Module gdfgdfg published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 13:53:17.545
+!MESSAGE Module gdfgdfg on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:53:51.627
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:03.656
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:09.772
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:17.611
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:19.726
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:26.955
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:32.711
+!MESSAGE 2 files modified in module NewWEBProject
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:32.725
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:36.556
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:39.840
+!MESSAGE 2 files modified in module NewWEBProject
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:43.275
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:49.276
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:54:59.088
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY unknown 0 0 2014-01-07 13:55:28.846
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 13:56:05.961
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 13:56:13.700
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 13:56:19.311
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 13:56:19.854
+!MESSAGE Module gdfgdfg on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 13:56:40.824
+!MESSAGE Module gdfgdfg on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:56:49.052
+!MESSAGE 1 files modified in module gdfgdfg
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 13:56:53.193
+!MESSAGE Module gdfgdfg on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 13:57:14.107
+!MESSAGE Module gdfgdfg on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2014-01-07 13:57:33.020
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 13:59:02.366
+!MESSAGE Module sdfsdfsdf published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 13:59:02.584
+!MESSAGE Module sdfsdfsdf on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 13:59:13.662
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 13:59:19.263
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 13:59:24.872
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 13:59:25.164
+!MESSAGE Module sdfsdfsdf on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 13:59:46.141
+!MESSAGE Module sdfsdfsdf on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:03:05.680
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:03:17.917
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:03:23.526
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 14:03:23.725
+!MESSAGE Module sdfsdfsdf on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 14:03:44.935
+!MESSAGE Module sdfsdfsdf on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:04:09.586
+!MESSAGE Server processes have been terminated.
+!SESSION 2014-01-07 14:24:12.056 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:32:33.695
+!MESSAGE Module SourceDTJPA published without error.
+
+!ENTRY unknown 0 0 2014-01-07 14:32:33.703
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:32:35.030
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:32:41.659
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 14:32:41.929
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:37:35.342
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:38:00.849
+!MESSAGE 14 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:39:29.046
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:39:43.422
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:40:09.775
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:41:04.207
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:41:13.161
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:41:18.771
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:41:49.004
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:41:55.752
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:42:07.821
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:42:13.817
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:42:19.427
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:44:14.218
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:44:14.427
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:44:22.889
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:44:28.498
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:45:15.356
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:45:18.354
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:45:28.169
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:45:33.778
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:47:27.293
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:47:53.964
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-01-07 14:48:11.377
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:48:11.605
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:48:20.325
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:48:25.935
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:50:59.640
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:51:04.315
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:51:05.221
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:51:37.080
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:51:42.689
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:52:21.484
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:52:44.016
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:52:44.894
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:52:50.566
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:54:32.442
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:54:41.815
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:55:41.572
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:55:47.968
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:56:47.674
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:56:59.374
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 14:57:02.216
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 14:57:08.537
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 14:57:17.634
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 14:57:23.243
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:19:17.164
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:29:47.917
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:30:31.318
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:31:20.407
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:31:26.682
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:32:37.881
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:32:41.063
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:32:51.396
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:33:06.048
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:33:20.844
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:33:28.503
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:35:14.329
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:35:26.021
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:35:28.614
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:47:28.319
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:52:29.458
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:53:04.451
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:53:10.416
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:54:20.652
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:54:41.605
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:54:51.583
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:55:03.183
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:55:51.256
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:56:12.383
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:56:18.040
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:56:49.857
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:56:58.814
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:58:23.122
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:58:39.601
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:58:43.675
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:58:53.624
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:59:30.361
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:59:52.182
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 15:59:57.278
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:00:22.609
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:01:08.344
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:01:17.867
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:01:41.934
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:01:48.311
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:03:05.539
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:03:34.124
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:05:19.673
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:06:57.175
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:07:19.945
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:07:49.031
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:08:06.116
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:08:15.942
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:09:16.108
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:09:35.409
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2014-01-07 16:09:56.375
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:09:57.021
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:10:02.968
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:10:08.597
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:10:08.889
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:10:29.892
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:11:49.980
+!MESSAGE 2 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:11:51.631
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:12:00.415
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:12:06.028
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:12:06.304
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:12:27.303
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:12:30.101
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:12:51.345
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:14:02.701
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:14:10.667
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:14:21.963
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:14:27.572
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:14:27.848
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:14:47.230
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:14:48.831
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:15:08.267
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:17:13.892
+!MESSAGE 2 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:17:21.980
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:17:25.508
+!MESSAGE 2 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:17:39.023
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:19:31.309
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:19:40.137
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:19:45.748
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:19:46.075
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:20:07.066
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:21:31.031
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:21:52.275
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:22:43.906
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:22:54.576
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:23:10.998
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:23:18.338
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:23:26.032
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:23:31.463
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:23:31.776
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:23:52.733
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:25:49.552
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:26:33.248
+!MESSAGE 1 files modified in module SourceDTJPA
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:26:35.837
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:26:43.137
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:26:48.747
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:26:49.034
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:27:10.058
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:28:24.731
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:28:45.685
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2014-01-07 16:29:59.004
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2014-01-07 16:30:19.963
+!MESSAGE Module SourceDTJPA on JBoss 7.1 Runtime Server still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2014-01-07 16:33:33.490
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:34:29.812
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:34:40.027
+!MESSAGE Module Dessperation published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:34:40.917
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:34:46.556
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:36:06.540
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:36:14.106
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:36:19.716
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:38:55.996
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 16:38:56.621
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 16:39:11.016
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 16:39:16.625
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:47:51.602
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:49:03.980
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:52:37.834
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:52:51.515
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:53:01.054
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:53:15.279
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:53:21.455
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:54:20.775
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:57:03.137
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 16:57:15.968
+!MESSAGE 2 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:02:36.626
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:02:44.812
+!MESSAGE 2 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:02:53.607
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:02:58.093
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:03:18.171
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:03:36.665
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:04:00.100
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:04:19.947
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:05:01.820
+!MESSAGE 3 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:05:06.863
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:05:13.847
+!MESSAGE 2 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:05:17.985
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:05:21.465
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:05:25.410
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:05:44.965
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:07:30.701
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:07:36.082
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:12:14.676
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:14:17.739
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:14:54.270
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:14:57.427
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 17:15:06.796
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:15:51.623
+!MESSAGE 2 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 17:15:52.512
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 17:15:58.123
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 17:21:33.244
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 17:21:33.292
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2014-01-07 17:21:41.167
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2014-01-07 17:21:46.902
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 18:28:39.113
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 18:31:31.177
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2014-01-07 18:34:11.746
+!MESSAGE 1 files modified in module Dessperation
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2014-01-07 20:59:51.031
+!MESSAGE Server processes have been terminated.

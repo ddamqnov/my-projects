@@ -1,0 +1,11 @@
+package servlets;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  SimpleUserInfoDAO d = new SimpleUserInfoDAO();
+  d.writeUserToDB("user", "password");
+	}
+
+}

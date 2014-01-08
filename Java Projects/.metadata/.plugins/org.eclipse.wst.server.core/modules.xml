@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
-  <module moduleId="org.eclipse.jst.jee.server:WEB Project" serverId="Tomcat v7.0 Server at localhost (2)"/>
+  <module moduleId="org.eclipse.jst.jee.server:WEB Project" serverId="JBoss 7.1 Runtime 3 Server1389092700709"/>
+  <module moduleId="org.eclipse.jst.jee.server:fsdfsdf" serverId="JBoss 7.1 Runtime 3 Server1389092700709"/>
+  <module moduleId="org.eclipse.jst.jee.server:Dessperation" serverId="JBoss 7.1 Runtime Server1389095435488"/>
+  <module moduleId="org.eclipse.jst.jee.server:JBossTestWeb" serverId="JBoss 7.1 Runtime 2 Server1389091195504"/>
+  <module moduleId="org.eclipse.jst.jee.server:gdfgdfg" serverId="JBoss 7.1 Runtime Server1389095435488"/>
 </modules>
