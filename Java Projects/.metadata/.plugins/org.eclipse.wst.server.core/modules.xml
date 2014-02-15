@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
+  <module moduleId="org.eclipse.jst.jee.server:FuckUJboss" serverId="FuckUJboss"/>
+  <module moduleId="org.eclipse.jst.jee.server:JPATests" serverId="JPATest"/>
+  <module moduleId="org.eclipse.jst.jee.server:BootstrapProject" serverId="JBoss 7.1 Runtime Server1389267582627"/>
+  <module moduleId="org.eclipse.jst.jee.server:JPATtests2" serverId="JPATest2"/>
   <module moduleId="org.eclipse.jst.jee.server:WEB Project" serverId="JBoss 7.1 Runtime 3 Server1389092700709"/>
   <module moduleId="org.eclipse.jst.jee.server:fsdfsdf" serverId="JBoss 7.1 Runtime 3 Server1389092700709"/>
-  <module moduleId="org.eclipse.jst.jee.server:Dessperation" serverId="JBoss 7.1 Runtime Server1389095435488"/>
   <module moduleId="org.eclipse.jst.jee.server:JBossTestWeb" serverId="JBoss 7.1 Runtime 2 Server1389091195504"/>
+  <module moduleId="org.eclipse.jst.jee.server:OneToMany" serverId="OneToMany"/>
   <module moduleId="org.eclipse.jst.jee.server:gdfgdfg" serverId="JBoss 7.1 Runtime Server1389095435488"/>
 </modules>

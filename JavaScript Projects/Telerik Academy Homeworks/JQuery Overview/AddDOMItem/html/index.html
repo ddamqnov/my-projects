@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+        <div id = "item"></div>
+<script>
+
+    $(document).ready(
+            function(){
+
+
+var myDiv = $('<div></div>')
+        .attr("id","newDiv")
+        .text("222  ");
+
+                function addItem(oldItemSelector,newItem,bool){
+                    if(bool == true){
+                        $('#' + oldItemSelector)
+                                .parent()
+                                .prepend(newItem);
+                    } else{
+                           $("#" + oldItemSelector)
+                                .parent()
+                                .append(newItem);
+                    }
+                }
+
+                addItem('item',myDiv,true);
+            });
+
+</script>
+</body>
+</html>

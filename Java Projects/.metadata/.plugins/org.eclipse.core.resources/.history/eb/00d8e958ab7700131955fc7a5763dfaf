@@ -1,6 +1,0 @@
-
-public interface IUsersDAO {
-
-	public UserInformation add(int userId,String name,String password);
-	
-}

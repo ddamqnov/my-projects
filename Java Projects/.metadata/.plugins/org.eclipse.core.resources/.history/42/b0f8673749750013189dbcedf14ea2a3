@@ -1,8 +1,0 @@
-package servlets;
-
-public class Snippet {
-	static EntityManagerFactory factory;
-		static String persistenceUnitName="login";
-		static EntityManager em;
-}
-

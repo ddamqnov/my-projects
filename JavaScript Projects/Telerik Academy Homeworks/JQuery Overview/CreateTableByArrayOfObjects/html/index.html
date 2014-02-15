@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<script src = "../script/javascript.js"></script>
+<script>
+  window.onload = function(){
+        var me =  new Student("Dimityr","Damqnov",5);
+        var me2 =  new Student("Ivan","Petrov",4);
+        var me3 =  new Student("Sasho","Roman",5);
+
+        var studentsSet = [];
+        studentsSet.push(me);
+        studentsSet.push(me3);
+        studentsSet.push(me2);
+        studentsSet.push(me3);
+        studentsSet.push(me);
+        var myTable = new StudentDynamicTable(studentsSet);
+    };
+
+</script>
+<body>
+
+</body>
+</html>
