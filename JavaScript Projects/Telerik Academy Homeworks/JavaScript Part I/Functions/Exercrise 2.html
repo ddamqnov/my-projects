@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+   // Write a function that returns the last digit of given integer as an English word.
+   // Examples: 512  "two", 1024  "four", 12309  "nine"
+
+   var inputField = document.createElement('input');
+   inputField.setAttribute('type','text');
+
+   var inputButton = document.createElement('button');
+   inputButton.innerText = 'Reverse!';
+   inputButton.addEventListener('click',function(){
+       label.innerText =  reverseDigits(inputField.value);
+   },false);
+
+   var label = document.createElement('label');
+
+   document.body.appendChild(inputField);
+   document.body.appendChild(inputButton);
+   document.body.appendChild(label);
+
+
+
+
+   function reverseDigits(str){
+
+       return str.split('').reverse().join('');
+
+   }
+
+
+
+</script>
+</body>
+</html>

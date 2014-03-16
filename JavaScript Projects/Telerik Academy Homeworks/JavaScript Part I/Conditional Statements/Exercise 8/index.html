@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    function numbersInEnglish(input){
+
+        var numbers = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve",
+            "thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"];
+
+        var array = ["twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"];
+        var result = "";
+
+        var number = input.toString();
+
+        if(number.length == 3){
+
+            result +=  numbers[number.charAt(0)] + " hundred ";
+
+            if(number.substr(1,2) < 20 && number.substr(1,2) != "00" ){
+
+                result += "and " + numbers[number.substr(1,2)];
+            }
+            else{
+                if(number.substr(1,2) > 20){
+                    result += " " + array[number.charAt(1) - 2] + " " + numbers[number.charAt(2)] ;
+                }
+            }
+
+        }
+        else{
+            if(number.length == 2){
+                if(number < 20){
+                    result += numbers[number];
+                }
+                else{
+                    result += array[number.charAt(0) - 2] + " " + numbers[number.charAt(1)]
+                }
+            }
+
+            if(number.length == 1){
+                result += numbers[number];
+            }
+        }
+
+
+
+
+        return result;
+    }
+
+    alert(numbersInEnglish(400));
+</script>
+</body>
+</html>

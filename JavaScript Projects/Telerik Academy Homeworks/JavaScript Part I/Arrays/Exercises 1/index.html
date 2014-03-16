@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    //Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5.
+    // Print the obtained array on the console.
+    var array  = [];
+    var count = 20;
+
+    function fillArray(array){
+        for(var i = 0 ; i < count ; i++){
+            array[i] = i * 5;
+        }
+    }
+
+    function printArray(array){
+        for(var i in array){
+            console.log(array[i]);
+        }
+    }
+
+    fillArray(array);
+    printArray(array);
+
+</script>
+</body>
+</html>

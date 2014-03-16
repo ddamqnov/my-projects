@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    function selectionSort (sortMe)
+    {
+        var i, j, tmp, tmp2;
+        for (i = 0; i < sortMe.length - 1; i++)
+        {
+            tmp = i;
+            for (j = i + 1; j < sortMe.length; j++)
+                if (sortMe[j] < sortMe[tmp])
+                    tmp = j;
+
+            tmp2 = sortMe[tmp];
+            sortMe[tmp] = sortMe[i];
+            sortMe[i] = tmp2;
+        }
+
+        return sortMe;
+    }
+
+
+    var temp = [12,1,2,52,2,1,7,3];
+   console.log(selectionSort(temp));
+
+</script>
+</body>
+</html>

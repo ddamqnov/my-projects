@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+//Write script that asks for a digit and depending on the input shows the name of that digit (in English) using a switch statement.
+
+var inputField = document.createElement('input');
+inputField.setAttribute('type','text');
+
+var inputButton = document.createElement('button');
+inputButton.innerText = 'Check';
+inputButton.addEventListener('click',function(){
+    label.innerText =  showDigitsName(inputField.value);
+},false);
+
+var label = document.createElement('label');
+
+document.body.appendChild(inputField);
+document.body.appendChild(inputButton);
+document.body.appendChild(label);
+
+    function showDigitsName(input){
+
+        var digit = parseInt(input);
+        var name = "";
+
+        if(digit > -1 && digit<10){
+            switch (digit){
+                case 0: name = "zero"; break;
+                case 1: name = "one"; break;
+                case 2: name = "two"; break;
+                case 3: name = "three"; break;
+                case 4: name = "four"; break;
+                case 5: name = "five"; break;
+                case 6: name = "six"; break;
+                case 7: name = "seven"; break;
+                case 8: name = "eight"; break;
+                case 9: name = "nine"; break;
+            }
+        }
+        else{
+            name = "Please enter digit (0-9)"
+        }
+
+        return name;
+    }
+
+</script>
+</body>
+</html>

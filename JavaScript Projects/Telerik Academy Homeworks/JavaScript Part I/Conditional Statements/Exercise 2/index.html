@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+
+    //Write a script that shows the sign (+ or -) of the product of three real numbers without calculating it.
+    // Use a sequence of if statements.
+
+    function showProductSign(x,y,z){
+        var sign = 1;
+        if(x < 0){
+            sign = sign  * (-1);
+        }
+
+        if( y < 0){
+            sign = sign  * (-1);
+        }
+
+         if( z < 0){
+            sign = sign  * (-1);
+         }
+
+         if(sign < 0){
+             return "-";
+         }
+         else{
+             return "+";
+         }
+
+     }
+
+
+    alert(showProductSign(-3,-2,-1));
+
+
+</script>
+</body>
+</html>

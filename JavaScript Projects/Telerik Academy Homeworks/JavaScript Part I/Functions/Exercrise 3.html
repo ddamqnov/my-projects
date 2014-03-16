@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    //Write a function that finds all the occurrences of word in a text
+    //The search can case sensitive or case insensitive
+
+    var field = document.createElement('input');
+    field.setAttribute('type','text');
+    field.setAttribute('placeholder','Enter string here !');
+
+    var field2 = document.createElement('input');
+    field2.setAttribute('type','text');
+    field2.setAttribute('placeholder','Enter substring here !');
+
+    var result = document.createElement('div');
+
+    var button = document.createElement('button');
+    button.innerText = 'Find substring ! ';
+    button.addEventListener('click',function(){
+        result.innerText = findSubstring(field.value,field2.value,false);
+    });
+
+    document.body.appendChild(field);
+    document.body.appendChild(field2);
+    document.body.appendChild(button);
+    document.body.appendChild(result);
+
+
+    function findSubstring(string,substring,bul){
+        var count = 0;
+        var str;
+        var subStr
+
+        if(bul == false){
+            str = string.toLowerCase();
+            subStr = substring.toLowerCase();
+
+        }
+
+        if(bul == true ){
+            str = string;
+            subStr = substring;
+        }
+
+
+
+        for( var i = 0 ; i < str.length ; i++){
+            if(str.charAt(i) == subStr[0]){
+                var temp = str.substring(i,i + substring.length);
+                if(temp === substring){
+                    count++;
+                }
+            }
+        }
+
+        return count;
+    }
+
+
+
+
+</script>
+</body>
+</html>

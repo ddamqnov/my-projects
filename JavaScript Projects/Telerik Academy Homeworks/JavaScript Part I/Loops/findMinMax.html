@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    var inputFieldArray = document.createElement('input');
+    inputFieldArray.setAttribute('type','text');
+    inputFieldArray.setAttribute('size','25');
+    inputFieldArray.setAttribute('placeholder','input numbers divided with ","');
+
+    var inputButton = document.createElement('button');
+    inputButton.innerText = 'Check the number!';
+    inputButton.addEventListener('click',function(){
+        var result =  findMinMax(inputFieldArray.value);
+        label.innerText = 'Min number: ' + result.min + " Max number: " + result.max;
+    },false);
+
+    var label = document.createElement('label');
+
+    document.body.appendChild(inputFieldArray);
+    document.body.appendChild(inputButton);
+    document.body.appendChild(label);
+
+    function findMinMax(string){
+
+        var array = string.split(',');
+        var min = array[0];
+        var max = array[0];
+
+
+        for(var i = 1 ; i < array.length ; i++ ){
+            if(min > array[i]){
+                min = array[i];
+            }
+
+            if(max < array[i]){
+                max = array[i];
+            }
+        }
+
+
+        var result = {
+            min : min,
+            max : max
+        }
+
+        return result;
+    }
+
+
+</script>
+</body>
+</html>

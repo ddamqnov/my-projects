@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    function findTheGreatestNumber(array){
+        if(array != null){
+            var max = array[0];
+            for(var i = 0, len = array.length ; i < len ; i++){
+                if(max < array[i]){
+                    max = array[i];
+                }
+            }
+            return max;
+        }
+        else{
+            return "Empty array !";
+        }
+
+    }
+
+    var array = [1,2,5,1,2,5,2,5,23,1];
+    alert(findTheGreatestNumber(array));
+
+</script>
+
+</body>
+</html>

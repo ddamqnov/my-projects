@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+     <script>
+
+         function parseURL(url){
+             var protocol ;
+             var server;
+             var resource;
+
+             var temp = url.split('://');
+             protocol = temp[0];
+
+             var temp2 = temp[1].split('/');
+
+             server = temp2[0];
+             temp2.splice(0,1);
+
+             resource = temp2.join("/");
+
+             return {
+                 protocol : protocol,
+                 server : server,
+                 resource : resource
+             }
+
+         }
+
+
+         console.log(parseURL('https://github.com/ddamqnov/TelerikAcademy/blob/master/JavaScript%20Projects/Homework-Strings/7.%20ParseURLAddress.html'));
+
+
+
+     </script>
+</body>
+</html>

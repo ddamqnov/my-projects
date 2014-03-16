@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+
+    var field = document.createElement('input');
+    field.setAttribute('type','text');
+    field.setAttribute('placeholder','Enter string here !');
+
+    var result = document.createElement('div');
+
+    var button = document.createElement('button');
+    button.innerText = 'Reverse string ! ';
+    button.addEventListener('click',function(){
+        result.innerText = stringReverse(field.value);
+    });
+
+
+
+
+    document.body.appendChild(field);
+    document.body.appendChild(button);
+    document.body.appendChild(result);
+
+
+
+    function stringReverse(string){
+        return string.split("").reverse().join("");
+    }
+
+
+</script>
+</body>
+</html>

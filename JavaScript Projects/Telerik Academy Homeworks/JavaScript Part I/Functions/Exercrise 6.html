@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+   // Write a function that returns the last digit of given integer as an English word.
+   // Examples: 512  "two", 1024  "four", 12309  "nine"
+
+   var inputField = document.createElement('input');
+   inputField.setAttribute('type','text');
+
+
+   var inputField2 = document.createElement('input');
+   inputField2.setAttribute('type','text');
+   inputField2.setAttribute('placeholder','Enter position here !');
+
+   var inputButton = document.createElement('button');
+   inputButton.innerText = 'Check!';
+   inputButton.addEventListener('click',function(){
+       label.innerText =  countsNumberSequences(inputField.value,inputField2.value-1);
+   },false);
+
+   var label = document.createElement('label');
+
+   document.body.appendChild(inputField);
+   document.body.appendChild(inputField2);
+   document.body.appendChild(inputButton);
+   document.body.appendChild(label);
+
+
+
+
+   function countsNumberSequences(str,number){
+
+       var array = str.split(',');
+       var  n = array[number];
+       var a = array[number - 1];
+       var b = array[number + 1]
+
+
+       console.log(n + " "  + a + " " + b );
+       if(n > a && n > b){
+           return true;
+       } else{
+           return false;
+       }
+   }
+
+
+
+</script>
+</body>
+</html>

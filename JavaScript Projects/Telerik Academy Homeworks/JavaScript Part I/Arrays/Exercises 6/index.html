@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+   // Write a program that finds the most frequent number in an array. Example:
+   //{4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3}  4 (5 times)
+
+    var array = [4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3];
+
+
+
+   function findMostFrequentNumber(array){
+       var sequence = {};
+       for(var i = 0 ; i < array.length ; i++){
+           if(sequence[array[i]] == undefined){
+               sequence[array[i]] = 1;
+           }
+           else{
+               sequence[array[i]]++;
+           }
+       }
+
+        var max = 0;
+        var number = null;
+
+        for(var i in sequence){
+            if(sequence[i] > max){
+                max = sequence[i];
+                number = i;
+            }
+        }
+
+        return  {
+            times : max,
+            number : number
+        }
+   }
+
+   var result = findMostFrequentNumber(array);
+
+   console.log('Number: ' + result.number + ' Times: ' + result.times);
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        var inputField = document.createElement('input');
+        inputField.setAttribute('type','text');
+
+        var inputButton = document.createElement('button');
+        inputButton.innerText = 'Check the number!';
+        inputButton.addEventListener('click',function(){
+            label.innerText =  printNumbers(inputField.value);
+        },false);
+
+        var label = document.createElement('label');
+
+        document.body.appendChild(inputField);
+        document.body.appendChild(inputButton);
+        document.body.appendChild(label);
+
+        function printNumbers(N){
+            var len = 1 + parseInt(N);
+
+            var tempString = '';
+            for(var i = 0 ; i < len ; i++ ){
+                    tempString += i + ' ' ;
+            }
+
+            return tempString;
+        }
+
+    </script>
+</body>
+</html>

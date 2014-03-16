@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    //Sort 3 real values in descending order using nested if statements.
+function sort(x,y,z){
+   var min;
+   var mid;
+   var max;
+
+    if(x < y){
+        min = x;
+        max = y;
+    }
+    else{
+        min = y;
+        max = x;
+    }
+
+    if( z > max){
+        middle = max;
+        max = z;
+    }
+    else{
+        if( z < min){
+            mid = min;
+            min = z;
+        }
+        else{
+            mid = z;
+        }
+    }
+
+    console.log(min + ":" + mid + ":" + max);
+}
+
+    sort(22,1,4);
+
+</script>
+</body>
+</html>

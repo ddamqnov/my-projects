@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    // Write a function to count the number of divs on the web page
+
+
+    var inputButton = document.createElement('button');
+    inputButton.innerText = "Get div's number!";
+    inputButton.addEventListener('click',function(){
+        document.body.appendChild(document.createElement('div'));
+        label.innerText = getDivsNumber();
+    },false);
+
+    var label = document.createElement('label');
+
+
+    document.body.appendChild(inputButton);
+    document.body.appendChild(label);
+
+
+
+    function getDivsNumber(){
+
+        return document.getElementsByTagName("div").length;
+
+    }
+
+
+
+</script>
+</body>
+</html>

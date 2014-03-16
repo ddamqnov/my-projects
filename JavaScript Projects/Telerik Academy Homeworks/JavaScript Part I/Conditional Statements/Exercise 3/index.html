@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    //Write a script that finds the biggest of three integers using nested if statements.
+function findTheBiggestInt(x,y,z){
+    if( x >= y && x >= z){
+        return x;
+        }
+    else {
+        if(y >= x && y >= z){
+            return y;
+        }
+        else{
+            if( z >= y && z >= x){
+                return z;
+            }
+        }
+    }
+}
+
+    alert(findTheBiggestInt(3,5,5));
+
+</script>
+</body>
+</html>

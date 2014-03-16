@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+
+    var inputFieldWidth = document.createElement('input');
+    inputFieldWidth.setAttribute('type','text');
+    inputFieldWidth.setAttribute('placeholder','Width');
+
+
+    var inputFieldHeight = document.createElement('input');
+    inputFieldHeight.setAttribute('type','text');
+    inputFieldHeight.setAttribute('placeholder','Height');
+
+    var inputButton = document.createElement('button');
+    inputButton.innerText = 'Calc rectangle area!';
+    inputButton.addEventListener('click',function(){
+        label.innerText =  calcArea(inputFieldWidth.value,inputFieldHeight.value);
+    },false);
+
+    var label = document.createElement('label');
+
+    document.body.appendChild(inputFieldWidth);
+    document.body.appendChild(inputFieldHeight);
+    document.body.appendChild(inputButton);
+    document.body.appendChild(label);
+
+    function calcArea(width,height){
+       return width * height ;
+    }
+</script>
+</body>
+</html>

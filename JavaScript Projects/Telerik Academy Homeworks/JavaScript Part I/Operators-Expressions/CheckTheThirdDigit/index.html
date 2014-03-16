@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+
+    var inputField = document.createElement('input');
+    inputField.setAttribute('type','text');
+
+    var inputButton = document.createElement('button');
+    inputButton.innerText = 'Check the number!';
+    inputButton.addEventListener('click',function(){
+        label.innerText =  checkTheDigit(inputField.value,3);
+    },false);
+
+    var label = document.createElement('label');
+
+    document.body.appendChild(inputField);
+    document.body.appendChild(inputButton);
+    document.body.appendChild(label);
+
+    function checkTheDigit(number,digitIndex){
+        if(number.length < 3){
+            return 'The number must be with minimum ' + digitIndex + 'digits !';
+        }
+        else{
+            return number.charAt(digitIndex-1);
+        }
+
+
+
+    }
+
+</script>
+</body>
+</html>

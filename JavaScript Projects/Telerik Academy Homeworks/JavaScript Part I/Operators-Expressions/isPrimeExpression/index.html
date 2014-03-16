@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+
+    var inputField = document.createElement('input');
+    inputField.setAttribute('type','text');
+
+    var inputButton = document.createElement('button');
+    inputButton.innerText = 'Check the number!';
+    inputButton.addEventListener('click',function(){
+        label.innerText =  isPrime(inputField.value);
+    },false);
+
+    var label = document.createElement('label');
+
+    document.body.appendChild(inputField);
+    document.body.appendChild(inputButton);
+    document.body.appendChild(label);
+
+    function isPrime(number) {
+        for(var  i = 2;2 * i < number;i++ ) {
+            if(number % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+
+
+</script>
+</body>
+</html>

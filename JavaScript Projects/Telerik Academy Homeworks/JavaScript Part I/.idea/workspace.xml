@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a1d67fa-cb8f-4ab0-9ab1-4260f0d024be" name="Default" comment="" />
+    <ignored path="JavaScript Part I.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JavaScript Part I" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 4/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="7" selection-start="598" selection-end="598" vertical-scroll-proportion="-17.923077" vertical-offset="248" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 5/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="13" selection-start="1319" selection-end="1319" vertical-scroll-proportion="-15.153846" vertical-offset="337" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Arrays/Exercises 1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="9" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercrise 2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/Exercrise 2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="224" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="748">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 6/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="-20.384615" vertical-offset="150" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 7/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 8/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="20" selection-start="1104" selection-end="1104" vertical-scroll-proportion="-11.115385" vertical-offset="340" max-vertical-offset="1054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercrise 1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/Exercrise 1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="0" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-20.384615" vertical-offset="371" max-vertical-offset="1003">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercrise 4.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/Exercrise 4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="681" selection-end="681" vertical-scroll-proportion="-20.384615" vertical-offset="65" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exercrise 5.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions/Exercrise 5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.93971634" vertical-offset="354" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Operators-Expressions/Odd or Even Interger Expression/index.html" />
+        <option value="$PROJECT_DIR$/Operators-Expressions/Boolean Expression/index.html" />
+        <option value="$PROJECT_DIR$/Operators-Expressions/Rectangle Area/index.html" />
+        <option value="$PROJECT_DIR$/Operators-Expressions/isPrimeExpression/index.html" />
+        <option value="$PROJECT_DIR$/Operators-Expressions/TrapezoidArea Expression/index.html" />
+        <option value="$PROJECT_DIR$/Loops/Print N Numbers.html" />
+        <option value="$PROJECT_DIR$/Loops/Print N Numbers Extended .html" />
+        <option value="$PROJECT_DIR$/Loops/findMinMax.html" />
+        <option value="$PROJECT_DIR$/Arrays/Exercises 1/index.html" />
+        <option value="$PROJECT_DIR$/Arrays/Exercises 2/index.html" />
+        <option value="$PROJECT_DIR$/Arrays/Exercises 3/index.html" />
+        <option value="$PROJECT_DIR$/Arrays/Exercises 4/index.html" />
+        <option value="$PROJECT_DIR$/Arrays/Exercises 5/index.html" />
+        <option value="$PROJECT_DIR$/Arrays/Exercises 7/index.html" />
+        <option value="$PROJECT_DIR$/Arrays/Exercises 8/index.html" />
+        <option value="$PROJECT_DIR$/Arrays/Exercises 6/index.html" />
+        <option value="$PROJECT_DIR$/String/exercises 5.html" />
+        <option value="$PROJECT_DIR$/String/exercises 1.html" />
+        <option value="$PROJECT_DIR$/String/exercises 2.html" />
+        <option value="$PROJECT_DIR$/String/exercises 3.html" />
+        <option value="$PROJECT_DIR$/String/exercises 4.html" />
+        <option value="$PROJECT_DIR$/String/exercises 7.html" />
+        <option value="$PROJECT_DIR$/Functions/Execrise 1.html" />
+        <option value="$PROJECT_DIR$/Functions/Exercrise 3.html" />
+        <option value="$PROJECT_DIR$/Functions/Exercrise 4.html" />
+        <option value="$PROJECT_DIR$/Functions/Exercrise 2.html" />
+        <option value="$PROJECT_DIR$/Functions/Exercrise 1.html" />
+        <option value="$PROJECT_DIR$/Functions/Exercrise 6.html" />
+        <option value="$PROJECT_DIR$/Functions/Exercrise 5.html" />
+        <option value="$PROJECT_DIR$/Functions/Exercrise 7.html" />
+        <option value="$PROJECT_DIR$/Objects/exercise 1/index.html" />
+        <option value="$PROJECT_DIR$/Objects/exercise 1/script.js" />
+        <option value="$PROJECT_DIR$/Objects/exercise 2/script.js" />
+        <option value="$PROJECT_DIR$/Objects/exercise 3/index.html" />
+        <option value="$PROJECT_DIR$/Objects/exercise 3/script.js" />
+        <option value="$PROJECT_DIR$/Operators-Expressions/CheckTheThirdDigit/index.html" />
+        <option value="$PROJECT_DIR$/Conditional Statements/Exercise 1/index.html" />
+        <option value="$PROJECT_DIR$/Conditional Statements/Exercise 2/index.html" />
+        <option value="$PROJECT_DIR$/Conditional Statements/Exercise 3/index.html" />
+        <option value="$PROJECT_DIR$/Conditional Statements/Exercise 4/index.html" />
+        <option value="$PROJECT_DIR$/Conditional Statements/Exercise 5/index.html" />
+        <option value="$PROJECT_DIR$/Conditional Statements/Exercise 6/index.html" />
+        <option value="$PROJECT_DIR$/Conditional Statements/Exercise 7/index.html" />
+        <option value="$PROJECT_DIR$/Conditional Statements/Exercise 8/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Part I" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Part I" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript Part I" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="&#10;c" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript Part II" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Damqnov\WebstormProjects\JavaScript Part I\Conditional Statements\Exercise 8" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\JavaScript Part I\Conditional Statements\Exercise 7" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\JavaScript Part I\Conditional Statements\Exercise 6" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\JavaScript Part I\Conditional Statements\Exercise 5" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\JavaScript Part I\Conditional Statements\Exercise 4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Damqnov\WebstormProjects\JavaScript Part I\Objects" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\JavaScript Part I" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\JavaScript Part I\Operators-Expressions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a1d67fa-cb8f-4ab0-9ab1-4260f0d024be" name="Default" comment="" />
+      <created>1392981446093</created>
+      <updated>1392981446093</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="626" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/findMinMax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/Print N Numbers Extended .html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="85" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/Print N Numbers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="41" selection-start="84" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="36" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/exercises 1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="488" selection-end="600" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/exercises 2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="77" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/exercises 3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="37" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="36" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operators-Expressions/TrapezoidArea Expression/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="48" selection-start="1056" selection-end="1056" vertical-scroll-proportion="-15.307693" vertical-offset="146" max-vertical-offset="799" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operators-Expressions/isPrimeExpression/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="20" selection-start="746" selection-end="746" vertical-scroll-proportion="0.7675214" vertical-offset="27" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operators-Expressions/Odd or Even Interger Expression/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="77" selection-end="580" vertical-scroll-proportion="-12.423077" vertical-offset="51" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operators-Expressions/Boolean Expression/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="310" selection-end="310" vertical-scroll-proportion="-6.5384617" vertical-offset="51" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operators-Expressions/Rectangle Area/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="32" selection-start="77" selection-end="974" vertical-scroll-proportion="-15.307693" vertical-offset="44" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.63931626" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="5" selection-start="227" selection-end="848" vertical-scroll-proportion="0.82564104" vertical-offset="231" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="36" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/findMinMax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="225" selection-end="225" vertical-scroll-proportion="0.24444444" vertical-offset="10" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/Print N Numbers Extended .html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="85" selection-end="628" vertical-scroll-proportion="0.4940171" vertical-offset="68" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops/Print N Numbers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="41" selection-start="84" selection-end="627" vertical-scroll-proportion="0.3982906" vertical-offset="107" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.9059829" vertical-offset="388" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.9059829" vertical-offset="609" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/exercise 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="116" selection-end="116" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/exercises 1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="488" selection-end="600" vertical-scroll-proportion="-13.076923" vertical-offset="102" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/exercises 3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="77" selection-end="1250" vertical-scroll-proportion="-17.26923" vertical-offset="299" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/exercises 7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="379" selection-end="379" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/exercises 2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="77" selection-end="595" vertical-scroll-proportion="-0.0" vertical-offset="357" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Operators-Expressions/CheckTheThirdDigit/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="-7.8461537" vertical-offset="51" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/exercise 2/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="37" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/exercise 3/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/exercise 3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="7" selection-start="598" selection-end="598" vertical-scroll-proportion="-17.923077" vertical-offset="248" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/Exercises 1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="224" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="-20.384615" vertical-offset="150" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="13" selection-start="1319" selection-end="1319" vertical-scroll-proportion="-15.153846" vertical-offset="337" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditional Statements/Exercise 8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="20" selection-start="1104" selection-end="1104" vertical-scroll-proportion="-11.115385" vertical-offset="340" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1379" selection-end="1379" vertical-scroll-proportion="-20.384615" vertical-offset="371" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="681" selection-end="681" vertical-scroll-proportion="-20.384615" vertical-offset="65" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.93971634" vertical-offset="626" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Exercrise 5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.93971634" vertical-offset="354" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

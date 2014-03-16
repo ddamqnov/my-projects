@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+
+    var inputFieldSideA = document.createElement('input');
+    inputFieldSideA.setAttribute('type','text');
+    inputFieldSideA.setAttribute('placeholder','Side A');
+
+    var inputFieldSideB = document.createElement('input');
+    inputFieldSideB.setAttribute('type','text');
+    inputFieldSideB.setAttribute('placeholder','Side B');
+
+
+    var inputFieldHeight = document.createElement('input');
+    inputFieldHeight.setAttribute('type','text');
+    inputFieldHeight.setAttribute('placeholder','Height');
+
+
+    var inputButton = document.createElement('button');
+    inputButton.innerText = 'Calc trapezoid area!';
+    inputButton.addEventListener('click',function(){
+        label.innerText =  calcArea(inputFieldSideA.value,inputFieldSideB.value,inputFieldHeight.value);
+    },false);
+
+    var label = document.createElement('label');
+
+    document.body.appendChild(inputFieldSideA);
+    document.body.appendChild(inputFieldSideB);
+    document.body.appendChild(inputFieldHeight);
+    document.body.appendChild(inputButton);
+    document.body.appendChild(label);
+
+    function calcArea(a,b,h){
+        return ((a+b)/2)*h ;
+    }
+</script>
+</body>
+</html>

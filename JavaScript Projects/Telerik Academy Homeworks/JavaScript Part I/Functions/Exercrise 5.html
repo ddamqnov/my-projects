@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    //Write a function that counts how many times given number appears in given array.
+    // Write a test function to check if the function is working correctly.
+
+    var inputField = document.createElement('input');
+    inputField.setAttribute('type','text');
+
+
+    var inputField2 = document.createElement('input');
+    inputField2.setAttribute('type','text');
+    inputField2.setAttribute('placeholder','Enter number here !');
+
+    var inputButton = document.createElement('button');
+    inputButton.innerText = 'Check!';
+    inputButton.addEventListener('click',function(){
+        label.innerText =  countsNumberSequences(inputField.value,inputField2.value);
+    },false);
+
+    var label = document.createElement('label');
+
+    document.body.appendChild(inputField);
+    document.body.appendChild(inputField2);
+    document.body.appendChild(inputButton);
+    document.body.appendChild(label);
+
+
+
+
+    function countsNumberSequences(str,number){
+        var count = 0;
+        var array = str.split(',');
+
+        for(var i in array){
+            if(array[i] == number){
+                count++;
+            }
+        }
+
+        return count;
+
+    }
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+   // Write a function that returns the last digit of given integer as an English word.
+   // Examples: 512  "two", 1024  "four", 12309  "nine"
+
+   var inputField = document.createElement('input');
+   inputField.setAttribute('type','text');
+
+   var inputButton = document.createElement('button');
+   inputButton.innerText = 'Check the digit!';
+   inputButton.addEventListener('click',function(){
+       label.innerText =  returnLastDigitAsWord(inputField.value);
+   },false);
+
+   var label = document.createElement('label');
+
+   document.body.appendChild(inputField);
+   document.body.appendChild(inputButton);
+   document.body.appendChild(label);
+
+
+
+
+   function returnLastDigitAsWord(str){
+
+       var digit =  str.charAt(str.length - 1);
+       var result;
+
+       switch(digit.toString()){
+           case  '1' :  result =  'one' ;break;
+           case  '2' :  result =  'two' ;  break;
+           case  '3' :  result =  'three'; break;
+           case  '4' :  result =  'four' ; break;
+           case  '5' :  result =  'five' ; break;
+           case  '6' :  result =  'six' ; break;
+           case  '7' :  result =  'seven' ; break;
+           case  '8' :  result =  'eight' ; break;
+           case  '9' :  result =  'nine' ; break;
+       }
+
+       return result;
+
+   }
+
+
+
+</script>
+</body>
+</html>
