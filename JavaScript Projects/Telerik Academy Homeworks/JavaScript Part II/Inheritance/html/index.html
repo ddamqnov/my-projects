@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="../JS/VehicleHieararchy.js"></script>
+</head>
+<body>
+
+    <script>
+        var wheels = [
+            new vehicleNS.Wheel(10),
+            new vehicleNS.Wheel(10),
+            new vehicleNS.Wheel(8),
+            new vehicleNS.Wheel(8)
+        ];
+
+        var car = new vehicleNS.LandVehicle(200,wheels);
+        console.log(car.speed);
+        car.accelerate();
+        console.log(car.speed);
+
+
+    </script>
+</body>
+</html>

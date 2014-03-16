@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    var movingShapes=(function(){
+        var privateWidth=50;
+        var privateHeight=50;
+
+        function generateRandomNumber(db,ub){
+            return Math.floor(Math.random()*ub)+db;
+        }
+
+        function generateRandomColor(){
+
+            var r=function(){
+                return Math.floor(Math.random()*256) | 0;
+            }
+
+            return "rgb("+r()+","+r()+","+r()+")";
+
+        }
+
+        function moveDiv(t,mDiv,randomCenter) {
+            t = t + 0.005; // "time"
+            var r = 100, //radius of circle
+                    xcenter = randomCenter,
+                    ycenter = randomCenter,
+                    x = Math.floor(xcenter + (r * Math.cos(t))),
+                    y = Math.floor(ycenter + (r * Math.sin(t)));
+            mDiv.style.top = x + "px";
+            mDiv.style.left = y + "px";
+
+            setTimeout(function() { //make sure the animation keeps going
+                moveDiv(t,mDiv,randomCenter);
+            }, 10);
+        }
+
+        function generateRandomDiv(){
+            var div=document.createElement("div");
+            div.style.backgroundColor=generateRandomColor();
+            div.style.fontSize=generateRandomNumber(10,50);
+            div.style.borderColor=generateRandomColor();
+            div.style.width=privateWidth+"px";
+            div.style.height=privateHeight+"px";
+            div.style.position="absolute";
+            document.body.appendChild(div);
+            return div;
+        }
+
+        function addMovingDiv(divMovement){
+            moveDiv(1,generateRandomDiv(),generateRandomNumber(100,800));
+        }
+
+        return{
+            addMovingDiv : addMovingDiv
+        };
+
+
+
+
+    })();
+
+
+    movingShapes.addMovingDiv("test1");
+    movingShapes.addMovingDiv("test2");
+    movingShapes.addMovingDiv("test3");
+    movingShapes.addMovingDiv("test4");
+    movingShapes.addMovingDiv("test5");
+    movingShapes.addMovingDiv("test6");
+    movingShapes.addMovingDiv("test7");
+
+
+
+
+</script>
+</body>
+</html>

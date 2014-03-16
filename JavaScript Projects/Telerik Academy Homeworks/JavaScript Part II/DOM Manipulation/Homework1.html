@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript DOM Homework 1</title>
+</head>
+<body>
+
+    <input type="text" placeholder="Enter number of divs: " id="input-box">
+    <button id="submit-btn" onclick="getNumberOfDivs()" >Submit</button>
+    <div id="divContainer"></div>
+
+    <script>
+        function getNumberOfDivs(){
+            var numericExpression = /^[0-9]+$/;
+            if(document.getElementById("input-box").value.match(numericExpression)){
+                var divsNumber= document.getElementById("input-box").value;
+                var divContainer= document.getElementById("divContainer");
+                while(divContainer.firstChild){
+                    divContainer.removeChild(divContainer.firstChild);
+                }
+
+                for(var i=0;i<divsNumber;i++){
+                    createDivElement();
+                }
+
+            }
+            else{
+                alert("Invalid input !");
+            }
+
+        }
+
+        function createDivElement(){
+            var div =  document.createElement("div");
+            var strong = document.createElement("strong");
+            strong.innerText = "div";
+            div.style.height = generateRandomNumber(20,100) + "px";7
+            div.style.color =  generateRandomColor();
+            div.style.width = generateRandomNumber(20,100) + "px";
+            div.style.borderColor = generateRandomColor();
+            div.style.borderRadius = generateRandomNumber(1,100 + "px");
+            div.style.borderWidth = generateRandomNumber(1,20) + "px";
+            div.style.backgroundColor = generateRandomColor();
+            div.style.position = "absolute";
+            div.style.top = generateRandomNumber(100,450) + "px";
+            div.style.left = generateRandomNumber(0,1000) + "px";
+            div.appendChild(strong);
+            document.getElementById("divContainer").appendChild(div);
+        }
+
+        function generateRandomColor(){
+            {
+                var r = function () { return Math.floor(Math.random()*256) | 0 };
+                return "rgb(" + r() + "," + r() + "," + r() + ")";
+            }
+        }
+
+        function generateRandomNumber(lowBorder,upBorder){
+            return (Math.floor(Math.random()*upBorder))+lowBorder;
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript DOM Homework 2</title>
+</head>
+<body>
+<div id="newContainer"></div>
+<script>
+var numberOfDivs = 5;
+var radius = 150;
+var currentAngle = 0;
+var angleStep = 10;
+
+showDivs();
+
+    function showDivs(){
+       window.setInterval(function(){
+           var cnt = document.getElementById('newContainer');
+
+           while(cnt.firstChild){
+               cnt.removeChild(cnt.firstChild);
+           }
+
+          for(var i  = 0 ;  i < numberOfDivs ; i++){
+              createDiv();
+          }
+
+       },100)
+    }
+
+    function createDiv(){
+        var div = document.createElement("div");
+        div.style.backgroundColor="red";
+        div.style.width="100px";
+        div.style.height="100px";
+        div.style.position = "absolute";
+        div.style.backgroundColor=generateRandomColor();
+        div.style.borderRadius="50px";
+        div.style.left = (300 + Math.sin(currentAngle) * radius) + "px";
+        div.style.top = (150 + Math.cos(currentAngle) * radius) + "px";
+        currentAngle += angleStep;
+        document.getElementById('newContainer').appendChild(div);
+
+    }
+
+    function generateRandomColor(){
+        {
+            var r = function () { return Math.floor(Math.random()*256) | 0 };
+            return "rgb(" + r() + "," + r() + "," + r() + ")";
+        }
+    }
+</script>
+</body>
+</html>

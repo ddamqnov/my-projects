@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body onload="onLoad()">
+<div>
+    <input type="color"  id="input-font-color">
+    <input type="color"  id="input-bg-color">
+    <button type="Submit" onclick="setColors()">Change colors !</button>
+</div>
+<div>
+    <textarea rows="4" id="text-area" cols="50"></textarea>
+</div>
+<script>
+
+    function setColors(){
+        var textarea = document.getElementById("text-area");
+        textarea.style.border = "3px solid";
+        textarea.style.color = document.getElementById("input-font-color").value;
+        textarea.style.backgroundColor = document.getElementById("input-bg-color").value;
+    }
+
+
+</script>
+</body>
+</html>

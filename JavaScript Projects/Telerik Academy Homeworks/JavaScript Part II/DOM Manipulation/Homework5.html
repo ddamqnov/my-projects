@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div id = 'tags-container' style="width:500px; height: 500px;" > </div>
+<script>
+    var tags = ["cms", "javascript", "js","ASP.NET MVC", ".net",
+        ".net", "css","wordpress", "xaml", "js", "http", "web",
+        "asp.net", "asp.net MVC", "ASP.NET MVC",
+        "wp", "javascript", "js", "cms", "html",
+        "javascript", "http", "http", "CMS","javascript", "http", "http", "CMS"];
+
+    generateTagCloud(tags,30,80);
+
+    function generateTagCloud(tags,minSize,maxSize){
+        var max = 0;
+        var map = new Object();
+        for(var i = 0,len = tags.length;i < len;i++){
+            if(map[tags[i].toLocaleLowerCase()] == undefined){
+                map[tags[i].toLocaleLowerCase()] = 1;
+            }
+            else{
+                map[tags[i].toLocaleLowerCase()]=map[tags[i].toLocaleLowerCase()]+1;
+                if(max<map[tags[i]]){
+                    max=map[tags[i]];
+                }
+            }
+        }
+
+        var interval = (maxSize-minSize)/(max-1);
+        console.log("max occurrences :" + max);
+        var fontSize = minSize;
+
+        for(var k in map){
+            var fontSize = minSize;
+            if(map[k] != 1){
+                fontSize = fontSize + ((map[k] - 1) * interval);
+            }
+            var div = document.createElement("div");
+            div.style.float = 'left';
+            div.style.marginLeft = '20px';
+            div.style.fontSize = fontSize + "px";
+            div.innerText = k;
+            document.getElementById('tags-container').appendChild(div);
+            console.log("For key :  " + k + " value is " + map[k] + " font size : " + fontSize);
+        }
+    }
+
+
+</script>
+</body>
+</html>

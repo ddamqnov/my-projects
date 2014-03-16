@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div id="add-here"></div>
+<script>
+    var div=document.createElement("div");
+    div.innerText="Hi im a new element here, so lets be friends!";
+    div.id="new-div";
+    document.body.appendChild(div);
+
+    var div2=document.createElement("div");
+    div2.innerText="Hi,I'm DIV2!";
+    div2.id="new-div2";
+    document.body.appendChild(div2);
+    var DOMManipulator=(function(){
+
+        var map = {};
+        map['element']=10;
+        console.log(map["element"]);
+
+        function addElementToDOM(parentElementByID,childElementByID){
+            var parent=  document.getElementById(parentElementByID);
+            var child=document.getElementById(childElementByID);
+            if(parent && child){
+                parent.appendChild(child);
+            }
+        }
+
+        function removeElementFromDOM(elementID){
+            var element= document.getElementById(elementID);
+            if(element){
+                element.remove(true);
+            }
+        }
+
+
+        function addEvent(elementID,eventType,eventHander){
+            var element=document.getElementById(elementID);
+            if(element && typeof eventHander == "function"){
+                element.addEventListener(eventType,eventHander,false);
+            }
+        }
+
+        function addElementsToBuffer(parentElementID,childElement){
+            var parent=document.getElementById(parentElementID);
+            var child=childElement;
+            if(parent){
+                if(map[parentElementID]==undefined){
+                    var array= [];
+                    array.push(child);
+                    map[parentElementID]=array
+                    console.log("This element "+ parentElementID+" now is in the buffer!" +  array[0].toString());
+                }
+                else
+                {
+                    var temp=map[parentElementID];
+                    console.log(temp.length);
+                    if(temp.length<100){
+                        temp.push(child);
+                        map[parentElementID]=temp;
+                    }
+                    else{
+                        for(var i= 0,len=temp.length;i<len;i++){
+                            parent.appendChild(temp[i]);
+                        }
+                    }
+                }
+            }
+        }
+
+        return {
+            addElement : addElementToDOM,
+            removeElement : removeElementFromDOM,
+            addEvent : addEvent,
+            addElementsToBuffer : addElementsToBuffer
+        };
+
+
+    })();
+
+    DOMManipulator.addElement("add-here","new-div");
+    DOMManipulator.removeElement("new-div");
+    DOMManipulator.addElement("new-div2");
+    function myFunc(){
+        alert("Hi");
+    }
+
+    DOMManipulator.addEvent("new-div2","click",myFunc);
+    DOMManipulator.addElementsToBuffer("add-here",div.cloneNode(true));
+    DOMManipulator.addElementsToBuffer("add-here",div.cloneNode(true));
+    DOMManipulator.addElementsToBuffer("add-here",div.cloneNode(true));
+    DOMManipulator.addElementsToBuffer("add-here",div.cloneNode(true));
+    DOMManipulator.addElementsToBuffer("add-here",div.cloneNode(true));
+
+
+</script>
+</body>
+</html>

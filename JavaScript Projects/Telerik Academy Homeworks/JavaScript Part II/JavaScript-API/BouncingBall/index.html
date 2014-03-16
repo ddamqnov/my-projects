@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script src="javascript.js"></script>
+<script>
+    var myBall = Ball;
+    myBall.setBallParams(20,5,100,100,"green");
+    var CreateAndDraw = createAndDrawCanvas(myBall);
+    var stopButton = document.createElement("button");
+
+    stopButton.innerText = "Stop the ball !";
+    stopButton.onclick = function(){
+        CreateAndDraw.stopTheBall();
+    }
+
+    var startButton = document.createElement("button");
+    startButton.innerText = "Change the direction! !";
+    startButton.onclick = function(){
+        CreateAndDraw.startTheBall();
+    }
+
+    document.body.appendChild(stopButton);
+    document.body.appendChild(startButton);
+</script>
+
+</body>
+</html>
