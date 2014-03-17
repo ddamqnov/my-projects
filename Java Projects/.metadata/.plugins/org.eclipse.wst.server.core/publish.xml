@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<publish-info>
-  <server id="OneToMany" path="publish3.dat"/>
-  <server id="JBoss 7.1 Runtime  Server1389089485004" path="publish1.dat"/>
-  <server id="JPATest2" path="publish2.dat"/>
-</publish-info>
