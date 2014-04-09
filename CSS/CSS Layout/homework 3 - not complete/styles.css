@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section, article, header, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#main-header {
+    border: 1px solid black;
+    background-color: #505d5d;
+}
+
+#main-header form {
+    position: relative;
+    float: right;
+    bottom: 50px;
+    right: 100px;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+label {
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+h1 {
+    color: yellow;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+article {
+    background-color: #829090;
+}
+
+p {
+    padding-right: 60px;
+    padding-left: 20px;
+}
+
+

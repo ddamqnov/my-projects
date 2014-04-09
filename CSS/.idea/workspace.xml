@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c5ce721-2129-448a-8daf-d8408807463d" name="Default" comment="" />
+    <ignored path="CSS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CSS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="homework.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/homework.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="1" selection-start="3496" selection-end="3496" vertical-scroll-proportion="-58.846153" vertical-offset="0" max-vertical-offset="2788">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 3/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="60" selection-start="110" selection-end="110" vertical-scroll-proportion="0.11888112" vertical-offset="0" max-vertical-offset="2312">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Homework.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/Homework.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="150" column="9" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.0" vertical-offset="2331" max-vertical-offset="3128">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS Overview/homework 1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="26" selection-start="73" selection-end="89" vertical-scroll-proportion="-0.6923077" vertical-offset="50" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2. homework.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 2/2. homework.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="221" column="3" selection-start="6010" selection-end="6116" vertical-scroll-proportion="0.0" vertical-offset="3451" max-vertical-offset="5032">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/CSS Overview/homework/index.html" />
+        <option value="$PROJECT_DIR$/CSS Overview/homework 1/index.html" />
+        <option value="$PROJECT_DIR$/CSS Overview/homework 1/index.css" />
+        <option value="$PROJECT_DIR$/CSS Overview/homework 2/index.html" />
+        <option value="$PROJECT_DIR$/CSS Overview/homework 3/index.html" />
+        <option value="$PROJECT_DIR$/CSS Overview/homework 3/homework-3.html" />
+        <option value="$PROJECT_DIR$/CSS Overview/homework 3/style.css" />
+        <option value="$PROJECT_DIR$/CSS Overview/homework 2/index.css" />
+        <option value="$PROJECT_DIR$/CSS Presentation/homework 1/index.html" />
+        <option value="$PROJECT_DIR$/CSS Presentation/homework 1/style.css" />
+        <option value="$PROJECT_DIR$/CSS Presentation/homework 4/style.css" />
+        <option value="$PROJECT_DIR$/CSS Presentation/homework 4/index.html" />
+        <option value="$PROJECT_DIR$/CSS Presentation/homework 3/index.html" />
+        <option value="$PROJECT_DIR$/CSS Presentation/homework 3/style.css" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 1/index.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 1/style.css" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 2/test.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 2/styles.css" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 2/style.css" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 2/index.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 3/index.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 3/styles.css" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 3 - not complete/index.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 4/test.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 4/test.css" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 4/index.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 4/styles.css" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 5/index.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 5/styles.css" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 6/index.html" />
+        <option value="$PROJECT_DIR$/CSS Layout/homework 6/styles.css" />
+        <option value="$PROJECT_DIR$/CSS SASS/test.scss" />
+        <option value="$PROJECT_DIR$/CSS SASS/mitko.scss" />
+        <option value="$PROJECT_DIR$/CSS SASS/styles.sass" />
+        <option value="$PROJECT_DIR$/CSS SASS/text.sass" />
+        <option value="$PROJECT_DIR$/CSS SASS/test/styles.css" />
+        <option value="$PROJECT_DIR$/CSS SASS/test/index.html" />
+        <option value="$PROJECT_DIR$/CSS SASS/index.html" />
+        <option value="$PROJECT_DIR$/CSS SASS/styles.scss" />
+        <option value="$PROJECT_DIR$/CSS Presentation/homework 2/2. homework.css" />
+        <option value="$PROJECT_DIR$/CSS SASS/homework 1/styles.scss" />
+        <option value="$PROJECT_DIR$/CSS SASS/homework 1/homework.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Dart</id>
+          </State>
+          <State>
+            <id>EJS</id>
+          </State>
+          <State>
+            <id>File Watchers</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS SASS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS Presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS Presentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework 3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistory" value="%" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS SASS\homework 1" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS SASS" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS Layout\homework 6" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS Layout\homework 5" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS Layout\homework 4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS SASS\homework 2" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS Layout" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS Layout\homework 2\resources\images" />
+      <recent name="C:\Users\Damqnov\WebstormProjects\CSS\CSS Layout\homework 1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c5ce721-2129-448a-8daf-d8408807463d" name="Default" comment="" />
+      <created>1393173521087</created>
+      <updated>1393173521087</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14757709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14904553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 2/2. homework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="21" selection-start="5318" selection-end="5318" vertical-scroll-proportion="0.0" vertical-offset="1935" max-vertical-offset="5117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 4/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="21" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 2/Homework-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="9" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="60" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 3/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 2/2. homework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="31" selection-start="7967" selection-end="7967" vertical-scroll-proportion="0.0" vertical-offset="2989" max-vertical-offset="5117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="62" selection-start="66" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 1/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="19" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 2/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="7" selection-start="388" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 3/homework-3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="60" selection-end="92" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="11" selection-start="107" selection-end="108" vertical-scroll-proportion="0.16693944" vertical-offset="0" max-vertical-offset="611" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="777" selection-start="957" selection-end="957" vertical-scroll-proportion="0.26748252" vertical-offset="0" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 2/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="335" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 4/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="21" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="9" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.6803419" vertical-offset="605" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 3/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="220" selection-end="220" vertical-scroll-proportion="0.25040916" vertical-offset="0" max-vertical-offset="611" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 1/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="19" selection-start="630" selection-end="630" vertical-scroll-proportion="0.7495908" vertical-offset="341" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 2/Homework-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 1/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.36006546" vertical-offset="52" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2735043" vertical-offset="27" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 2/resources/images/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 2/resources/images/red-button-mdt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="14" selection-start="926" selection-end="926" vertical-scroll-proportion="0.8608838" vertical-offset="647" max-vertical-offset="1343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 3 - not complete/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 3 - not complete/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.83306056" vertical-offset="392" max-vertical-offset="1003" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 3 - not complete/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="563" selection-end="563" vertical-scroll-proportion="0.41880342" vertical-offset="95" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="712" selection-end="712" vertical-scroll-proportion="0.21538462" vertical-offset="231" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 4/css3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 4/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="20" selection-start="890" selection-end="890" vertical-scroll-proportion="0.3747954" vertical-offset="995" max-vertical-offset="2924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="9" selection-start="5054" selection-end="5054" vertical-scroll-proportion="0.02905983" vertical-offset="2856" max-vertical-offset="4250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 5/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="7" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 5/mac-book.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Layout/homework 6/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="19" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/images/li-dot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/images/Sample Logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 3/homework-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="3" selection-start="412" selection-end="412" vertical-scroll-proportion="0.02905983" vertical-offset="255" max-vertical-offset="1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 3/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.027823241" vertical-offset="0" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 2/2. homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="16" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-7.0" vertical-offset="413" max-vertical-offset="3179" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/Homework.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 2/2. homework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="3" selection-start="6010" selection-end="6116" vertical-scroll-proportion="0.0" vertical-offset="3451" max-vertical-offset="5032">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="9" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.0" vertical-offset="2331" max-vertical-offset="3128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Overview/homework 1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="73" selection-end="89" vertical-scroll-proportion="-0.6923077" vertical-offset="50" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS SASS/homework 1/homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="1" selection-start="3496" selection-end="3496" vertical-scroll-proportion="-58.846153" vertical-offset="0" max-vertical-offset="2788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS Presentation/homework 3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="60" selection-start="110" selection-end="110" vertical-scroll-proportion="0.11888112" vertical-offset="0" max-vertical-offset="2312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+th {
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: "Helvetica Neue";
+    background-color: rgb(52, 255, 0);
+    text-align: left;
+    padding-left: 7px;
+    border: 1px solid #CCC;
+
+}
+
+td {
+    padding-left: 7px;
+    border-right: 1px solid #CCC;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+tr:nth-child(2n) {
+    background-color: #ECECD8;
+}
+
+#colOne {
+    width: 40%;
+}
+
+#colTwo {
+    width: 25%;
+}
+
+

@@ -1,0 +1,91 @@
+.remove-default-li-prop, body nav ul > li, body aside > ul {
+  list-style-type: none; }
+
+ul, li {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background: blueviolet; }
+  body header #reg-form-container {
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 50px; }
+  body section {
+    width: 75%;
+    float: left;
+    color: black; }
+    body section article {
+      border: 3px solid pink;
+      -webkit-border-radius: 13px;
+      -moz-border-radius: 13px;
+      -ms-border-radius: 13px;
+      -o-border-radius: 13px;
+      border-radius: 13px;
+      margin: 20px;
+      padding: 20px; }
+      body section article header h1 {
+        color: white;
+        font-size: 1.4em;
+        padding: 0; }
+      body section article p {
+        color: white; }
+      body section article footer p {
+        font-size: 15px;
+        text-align: right;
+        font-weight: normal; }
+        body section article footer p time {
+          font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace; }
+        body section article footer p a {
+          text-decoration: none;
+          color: darkgray; }
+          body section article footer p a:hover {
+            text-decoration: underline; }
+  body nav {
+    border: 3px solid pink;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    border-radius: 13px;
+    width: 75%;
+    margin-left: 20px; }
+    body nav ul > li {
+      display: inline-block; }
+      body nav ul > li a {
+        text-decoration: none;
+        color: white;
+        padding: 0 10px 0 10px;
+        font: 1.4em normal Arial; }
+      body nav ul > li:hover > a {
+        text-decoration: underline; }
+      body nav ul > li:hover ul {
+        display: block; }
+      body nav ul > li ul {
+        display: none;
+        position: absolute; }
+        body nav ul > li ul li {
+          display: block; }
+          body nav ul > li ul li a {
+            font: 1.2em normal Arial; }
+  body aside {
+    float: left;
+    width: 20%;
+    margin: 20px; }
+    body aside > ul > li {
+      margin: 15px 0;
+      padding: 15px;
+      border: 1px solid pink;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      color: white; }
+  body section article footer p {
+    font-size: 15px;
+    text-align: right;
+    font-weight: normal; }

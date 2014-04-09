@@ -1,0 +1,179 @@
+$b-background-color: blueviolet;
+$nav-font-color: white;
+$nav-background-color: inherit;
+$article-color: white;
+
+@mixin border-radius($radius) {
+        -webkit-border-radius: $radius;
+        -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+        -o-border-radius: $radius;
+        border-radius: $radius;
+}
+
+@mixin border($width,$color){
+
+  border : $width  solid $color ;
+  
+}
+
+
+
+.remove-default-li-prop{list-style-type: none;}
+
+
+ul,li {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background: $b-background-color;
+
+  header #reg-form-container {
+    float: right;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+  }
+
+  section{
+
+    width: 75%;
+    float: left;
+    color: black;
+
+    article{
+      @include border(3px,pink);
+      @include border-radius(13px);
+      margin: 20px;
+      padding: 20px;
+
+
+      header{
+        h1{
+          color: white;
+          font-size: 1.4em;
+          padding: 0;
+        }
+
+      }
+
+      p{
+        color: $article-color;
+      }
+
+
+      footer{
+        p{
+          font-size: 15px;
+          text-align: right;
+          font-weight: normal;
+
+          time {
+            font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+          }
+
+          a {
+            text-decoration: none;
+            color: darkgray;
+
+            &:hover {
+              text-decoration: underline;
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+  nav{
+
+    @include border(3px,pink);
+    @include border-radius(13px);
+    width: 75%;
+    margin-left:20px;
+
+      ul{
+
+         >li{
+          display: inline-block;
+           a{
+             text-decoration: none;
+             color : $nav-font-color;
+             padding: 0 10px 0 10px;
+             font: 1.4em normal Arial;
+           }
+
+           &:hover {
+
+              & > a{
+                 text-decoration: underline;
+               }
+           }
+
+           &:hover ul{
+                display: block;
+           }
+
+           ul{
+             display: none;
+             position: absolute;
+
+              li{
+                display: block;
+
+                a{
+                  font: 1.2em normal Arial;
+
+                }
+
+              }
+           }
+
+           @extend .remove-default-li-prop
+
+         }
+      }
+  }
+
+  aside{
+    float: left;
+    width: 20%;
+    margin: 20px;
+
+     >ul{
+
+         @extend .remove-default-li-prop;
+
+         >li{
+           margin: 15px 0;
+           padding: 15px;
+           @include border(1px,pink);
+           @include border-radius(5px);
+           color: white;
+     }
+
+     }
+  }
+
+  section{
+    article{
+
+      footer{
+            p{
+              font-size: 15px;
+              text-align: right;
+              font-weight: normal;
+            }
+
+          }
+      }
+  }
+}

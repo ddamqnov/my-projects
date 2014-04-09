@@ -1,0 +1,165 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Verdana;
+    padding: 0px;
+    margin: 0px
+
+}
+
+ul, li, div, nav, article {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    width: 98%;
+    margin-top: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    padding: 10px;
+    font-size: 9px;
+    color: #000000;
+}
+
+nav {
+    width: 11%;
+    float: left;
+}
+
+nav header {
+    padding-left: 10px;
+}
+
+nav section {
+    margin-bottom: 10px;
+}
+
+.article-img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+
+article section {
+    margin-bottom: 20px;
+}
+
+article section a {
+    color: red;
+    text-decoration: underline;
+}
+
+article {
+    width: 70%;
+    position: relative;
+    float: left;
+    border-left: 3px solid #dcdcdc;
+    border-right: 3px solid #dcdcdc;
+    background-color: #ffffff;
+}
+
+section p {
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.main-header {
+    background-color: #ffffff;
+    width: 70%;
+    position: relative;
+    float: left;
+    border-top: 3px solid #dcdcdc;
+    border-left: 3px solid #dcdcdc;
+    border-right: 3px solid #dcdcdc;
+    margin-top: 4px;
+}
+
+.main-header button {
+    margin-left: 10px;
+    width: 20%;
+}
+
+.main-header h1 {
+    margin-left: 10px;
+}
+
+.right-of-img {
+    position: relative;
+    float: right;
+    width: 800px;
+    padding-right: 7px;
+}
+
+.right-anchor {
+    position: relative;
+    float: left;
+    left: 135px;
+    bottom: 40px;
+}
+
+aside {
+    float: right;
+    position: relative;
+    bottom: 112px;
+    right: 25px;
+    background-color: #ffffff;
+
+}
+
+aside a {
+    color: red;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+aside div {
+    border: 3px solid #dcdcdc;
+    padding: 5px;
+    text-align: center;
+}
+
+aside section {
+    border: 3px solid #dcdcdc;
+
+}
+
+footer {
+    width: 70%;
+    position: relative;
+    float: left;
+    background-color: #ffffff;
+    border-left: 3px solid #dcdcdc;
+    border-right: 3px solid #dcdcdc;
+    border-bottom: 3px solid #dcdcdc;
+}
+
+footer button {
+    margin-left: 10px;
+    width: 20%;
+}
+
+h2 {
+    padding-left: 20px;
+    color: white;
+    background-color: #808080;
+    font-size: 15px;
+    margin: 0;
+}
+
+h3 {
+    color: red;
+    font-size: 10px;
+    padding-left: 10px;
+    margin: 0px;
+}
+

@@ -1,0 +1,16 @@
+article p {
+    font-family: Consolas, Arial;
+    text-align: justify;
+    color: deepskyblue;
+}
+
+article p:first-line {
+    font-weight: bold;
+
+}
+
+article p:first-letter {
+    font-family: Edwardian Script ITC, Arial;
+    font-size: 3em;
+
+}
