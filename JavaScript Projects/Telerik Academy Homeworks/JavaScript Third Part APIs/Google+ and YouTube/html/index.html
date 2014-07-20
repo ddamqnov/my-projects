@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="proto-class.js"></script>
+
+</head>
+<body>
+<script src = 'youtube.js'></script>
+<script type="text/javascript">
+    (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/client:plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+
+    function signinCallback(authResult) {
+        if (authResult['status']['signed_in']) {
+
+            $('#signinButton').hide();
+            $('#player').show();
+            $('#control-panel').show();
+            $('#log-out-btn').show().on('click',function(){
+                //Logout
+            });
+
+
+
+
+        } else {
+            // Update the app to reflect a signed out user
+            // Possible error values:
+            //   "user_signed_out" - User is signed-out
+            //   "access_denied" - User denied access to your app
+            //   "immediate_failed" - Could not automatically log in the user
+            console.log('Sign-in state: ' + authResult['error']);
+        }
+    }
+
+
+    gapi.client.load('plus','v1', function(){
+        var request = gapi.client.plus.people.get({
+            'userId': 'me'
+        });
+        request.execute(function(resp) {
+            console.log('Retrieved profile for:' + resp.displayName);
+        });
+    });
+
+
+    $(document).ready(function(){
+        $('#player').hide();
+        $('#control-panel').hide();
+        $('#log-out-btn').hide();
+    });
+
+
+    var player;
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            height: '390', //must be bigger than 200px
+            width: '640', //must be bigger than 200px
+            videoId: '7qrRzNidzIc',
+            events: {
+                'onReady': onPlayerReady
+            }
+
+
+
+        });
+
+        var myPanel = new ControlPanel();
+        myPanel.initialize('control-panel',player);
+        myPanel.addAllButtons();
+
+
+
+    }
+
+    function onPlayerReady(event) {
+        event.target.player.pauseVideo();
+
+    }
+
+
+
+
+</script>
+
+
+<span id="signinButton">
+  <span
+          class="g-signin"
+          data-callback="signinCallback"
+          data-clientid="97741407716-1v1f2ue924ihcnuvsr9aeg9jtr2uov4n.apps.googleusercontent.com"
+          data-cookiepolicy="single_host_origin"
+          data-requestvisibleactions="http://schemas.google.com/AddActivity"
+          data-scope="https://www.googleapis.com/auth/plus.login">
+  </span>
+
+
+</span>
+
+<div id="player"></div>
+<div id="control-panel"></div>
+<div>
+    <button id="log-out-btn">Logout</button>
+</div>
+</body>
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+form {
+    margin : 5%;
+    padding: 5%;
+    border: 5px #3ec303 solid;
+    border-radius: 10px;
+}
+
+#result{
+    margin : 1%;
+    padding: 2%;
+    border: 5px #3ec303 solid;
+    border-radius: 10px;
+}
+
+
+ #map-canvas {
+     width:  700px;
+     height: 350px;
+
+ }
+
+.green-border {
+    border: 5px #3ec303 solid;
+    border-radius: 10px;
+}
